@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/sb-05-2-Druid" />
+    <file type="web" url="file://$PROJECT_DIR$/sb-interceptor" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-01-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-02-yaml/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-04-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-05-Druid/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-06-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-07-security/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-05-Druid2/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-10-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-11-async-sync-email/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-11-02-email/pom.xml" />
+        <option value="$PROJECT_DIR$/sb-11-03-timer/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/sb-03-Thymeleaf/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
