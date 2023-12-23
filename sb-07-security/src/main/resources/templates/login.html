@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 新 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+  <div style="width: 40%; margin: auto">
+    <form th:action="@{/login}" method="post">
+      <div class="mb-3 mt-3">
+        <label for="username" class="form-label">username:</label>
+        <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: betaweiwang@gmail.com
+    password: pkzqrfuqzfvhvysr
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
