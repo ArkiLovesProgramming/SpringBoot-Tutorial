@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="sb-02-yaml" />
         <module name="sb-06-mybatis" />
+        <module name="MyStarter" />
         <module name="Redis" />
         <module name="sb-09-shiro-sb" />
         <module name="sb-07-security" />

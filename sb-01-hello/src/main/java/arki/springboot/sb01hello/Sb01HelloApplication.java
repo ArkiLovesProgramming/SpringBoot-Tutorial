@@ -1,5 +1,6 @@
 package arki.springboot.sb01hello;
 
+import org.apache.catalina.core.ApplicationContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Sb01HelloApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Sb01HelloApplication.class, args);
+        ApplicationContext context = (ApplicationContext) SpringApplication.run(Sb01HelloApplication.class, args);
     }
 
 }
